@@ -49,6 +49,6 @@ File Name | Description
 | school.mgc | Create a magic file `school.mgc` that can be used with the command `file` to detect `School` data files. `School` data files always contain the string `SCHOOL` at offset 0. |
 
 # Author: Zeberio Morande
-[Zeb-0](https://github.com/)
+GitHub - [Zeb-0](https://github.com/)
 
-[morandezeb](https://twitter.com/morandezeb)
+Twitter - [@morandezeb](https://twitter.com/morandezeb)
