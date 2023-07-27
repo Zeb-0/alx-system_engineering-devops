@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
-# Display the visitor IP along with the HTTP status code from the Apache log file and ordered 
+# Display the visitor IP along with the HTTP status code from the Apache log file and ordered
 
-awk '{print $1 " " $9}' apache-access.log | sort | uniq -c | sort -rn
+myfile="apache-access.log"
+awk -F' ' '{ print $1, $9}' $myfile | sort | uniq -c|sort -nr
