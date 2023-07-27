@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+# display content of the current dir in list format excluding number task
+
+mylist=$(ls)
+
+for i in $mylist; do
+  echo "$i" | cut -d '-' -f2
+done
