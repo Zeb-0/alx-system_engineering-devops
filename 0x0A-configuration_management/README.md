@@ -1,7 +1,9 @@
 # 0x0A-configuration_management
 
-## Resources:
 ---
+
+## Resources:
+
 **Read or Watch:**
 - [Intro to Configuration Management](https://www.digitalocean.com/community/tutorials/an-introduction-to-configuration-management)
 - [Puppet resource type: file](https://www.puppet.com/docs/puppet/5.5/types/file.html) (check “Resource types” for all manifest types in the left menu)
