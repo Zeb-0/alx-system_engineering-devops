@@ -49,7 +49,8 @@ Note: Your server is configured with an Ubuntu 20.04 LTS environment.
 ---
 
 ## Author:
-Zeberio Morande - morandezeb@gmail.com
+Zeberio Morande
+- morandezeb@gmail.com
 - [@morandezeb](https://twitter.com/morandezeb)
 - [Zeberio](https://github.com/Zeb-0)
 ---
