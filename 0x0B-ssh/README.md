@@ -39,7 +39,7 @@ Note: Your server is configured with an Ubuntu 20.04 LTS environment.
 ## Your Servers
 |Name| Username | IP | State|
 |--- | --- | --- |--- |
-|203781-web-01 |---| --- | Actions |
+|203781-web-01 | | | Actions |
 
 ---
 
