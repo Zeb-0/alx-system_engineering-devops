@@ -1,6 +1,5 @@
-# create a manifest that kills a process named 'killmenow'
-
-ackage { 'puppet-lint':
-  ensure   => '2.5.0',
-  provider => gem,
+# Executes a bash command
+exec { 'kill':
+  command => 'pkill -f killmenow',
+  path    => ['/usr/bin', '/usr/sbin']
 }
