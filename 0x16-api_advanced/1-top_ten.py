@@ -1,5 +1,7 @@
 #!/usr/bin/python3
 '''print hot posts on a given Reddit subreddit.'''
+
+
 import requests
 
 
