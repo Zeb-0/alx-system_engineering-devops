@@ -7,7 +7,6 @@ from requests import get
 
 def number_of_subscribers(subreddit):
     '''Return the total number of subscribers on a given subreddit.'''
-    
     if subreddit is None or not isinstance(subreddit, str):
         return 0
     
@@ -18,6 +17,6 @@ def number_of_subscribers(subreddit):
 
     try:
         return results.get('data').get('subscribers')
-    
     except Exception:
         return 0
+    
